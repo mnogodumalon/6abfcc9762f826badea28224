@@ -1,0 +1,71 @@
+{
+  "HundebesitzerDialog.tsx": {
+    "vorname": "z. B. Anna",
+    "nachname": "z. B. Müller",
+    "email": "z. B. anna@example.com",
+    "strasse": "z. B. Hauptstraße",
+    "hausnummer": "z. B. 42",
+    "plz": "z. B. 12345",
+    "ort": "z. B. Berlin",
+    "telefon": "z. B. 030 123456",
+    "notizen": "Besonderheiten, Allergien, Kontakt-Vorlieben..."
+  },
+  "HundeDialog.tsx": {
+    "name": "z. B. Luna",
+    "rasse": "z. B. Labrador",
+    "geburtsdatum": "Wann ist der Hund geboren?",
+    "geschlecht": "Wähle Geschlecht",
+    "gewicht_kg": "z. B. 28",
+    "farbe": "z. B. Braun, weiße Pfoten",
+    "besitzer": "Welcher Besitzer?",
+    "impfstatus": "Impfungen, Gültigkeit, Notizen...",
+    "medikamente": "Chronische Medikation, Dosierung...",
+    "fuetterungshinweise": "Futter, Menge, Zeiten, Allergien...",
+    "besondere_hinweise": "Verhalten, Besonderheiten, Warnsignale..."
+  },
+  "AufenthalteDialog.tsx": {
+    "hund": "Welcher Hund kommt?",
+    "anreise": "Wann kommt der Hund?",
+    "abreise": "Wann reist er ab?",
+    "platz": "Welcher Platz?",
+    "status": "Status wählen",
+    "preis": "z. B. 45,00",
+    "notizen": "Besonderheiten, Beobachtungen während Aufenthalt..."
+  },
+  "BuchungsanfragenDialog.tsx": {
+    "anfrage_vorname": "z. B. Michael",
+    "anfrage_nachname": "z. B. Schmidt",
+    "anfrage_telefon": "z. B. 030 98765432",
+    "anfrage_email": "z. B. michael@example.com",
+    "hund_name": "z. B. Max",
+    "hund_rasse": "z. B. Terrier",
+    "hund_groesse": "Größe des Hundes",
+    "wunsch_anreise": "Wann soll die Anreise sein?",
+    "wunsch_abreise": "Wann ist die Abreise geplant?",
+    "nachricht": "Spezielle Wünsche, Fragen, Besonderheiten...",
+    "anfrage_status": "Status der Anfrage"
+  },
+  "PfotenPortraetDialog.tsx": {
+    "aufenthalt": "Zu welchem Aufenthalt?",
+    "hund": "Welcher Hund?",
+    "widmung": "Persönliche Widmung für den Besitzer...",
+    "erlebnisse": "Schöne Momente während des Aufenthalts...",
+    "lieblingsaktivitaet": "z. B. Ballspielen, Schwimmen",
+    "charakterbeschreibung": "Persönlichkeit, Temperament, besondere Züge...",
+    "erstellungsdatum": "Wann wurde das Porträt erstellt?"
+  },
+  "WebsiteDialog.tsx": {
+    "unternehmensname": "z. B. Wuff-Paradies",
+    "slogan": "z. B. Dein Hund bei uns gut aufgehoben",
+    "beschreibung": "Wer wir sind, was wir anbieten, Vision...",
+    "leistungen": "Eine Leistung pro Zeile",
+    "oeffnungszeiten": "Mo–Fr 09:00–17:00, Sa 10:00–14:00...",
+    "kontakt_telefon": "z. B. 030 123456789",
+    "kontakt_email": "z. B. info@wuff-paradies.de",
+    "website_url": "z. B. wuff-paradies.de",
+    "strasse": "z. B. Waldweg",
+    "hausnummer": "z. B. 7",
+    "plz": "z. B. 10115",
+    "ort": "z. B. Berlin"
+  }
+}

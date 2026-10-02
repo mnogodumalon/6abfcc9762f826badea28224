@@ -1,0 +1,40 @@
+{
+  "entities": {
+    "Hundebesitzer": {
+      "placeholders_set": 9,
+      "defaults_keys": [],
+      "computed_keys": [],
+      "reason": "Reine Stammdaten (Name, Kontakt, Adresse). Keine Datumspaare, keine numerischen Felder mit Abhängigkeiten, kein applookup mit Preis-Target. Nichts berechenbar."
+    },
+    "Hunde": {
+      "placeholders_set": 11,
+      "defaults_keys": [],
+      "computed_keys": [],
+      "reason": "Tierstammdaten (Name, Rasse, Geburtsdatum, Gewicht, Besitzer). Ein Datumfeld ohne Paarung (kein abreise/ende), applookup hat keine Preis-Bedeutung. Keine Berechnungen sinnvoll."
+    },
+    "Aufenthalte": {
+      "placeholders_set": 6,
+      "defaults_keys": ["anreise", "abreise", "status"],
+      "computed_keys": ["_aufenthalt_dauer_nächte"],
+      "reason": "Aufenthalts-Entity mit Datumspaar (anreise/abreise). Virtueller Dauer-Key für Aggregat-Anzeige. Status=geplant als Anfangs-Lookup. Keine applookup mit Preis-Multiplikator vorhanden — preis wird manuell eingegeben."
+    },
+    "Buchungsanfragen": {
+      "placeholders_set": 11,
+      "defaults_keys": ["wunsch_anreise", "wunsch_abreise", "anfrage_status"],
+      "computed_keys": ["_anfrage_dauer_nächte"],
+      "reason": "Anfrage-Entity mit Datumspaar (wunsch_anreise/wunsch_abreise). Virtueller Dauer-Key zur Aufenthaltslängen-Vorschau. Status=offen als Anfangs-Lookup. Keine Preis-Berechnung, keine numerischen Abhängigkeiten."
+    },
+    "Pfoten-Porträt": {
+      "placeholders_set": 7,
+      "defaults_keys": ["erstellungsdatum"],
+      "computed_keys": [],
+      "reason": "Dokumentations-Entity mit Textfeldern und zwei applookups (Aufenthalt, Hund) ohne Preis-Targets. Erstellungsdatum wird auto-gesetzt. Keine berechenbaren Felder."
+    },
+    "Website": {
+      "placeholders_set": 12,
+      "defaults_keys": [],
+      "computed_keys": [],
+      "reason": "Konfigurationseintrag für Webseite (Firmenname, Kontakt, Adresse, Öffnungszeiten, Leistungen). Reine Textdaten, keine Numerik, keine Abhängigkeiten. Nichts berechenbar."
+    }
+  }
+}

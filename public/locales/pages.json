@@ -1,0 +1,39 @@
+{
+  "pages": {
+    "en": {
+      " wartet auf deine Antwort.": " is waiting for your response.",
+      "1 neue Buchungsanfrage": "1 new booking request",
+      "Abreise heute": "Departing today",
+      "Abreise morgen": "Departing tomorrow",
+      "Abschluss erfassen": "Record Completion",
+      "Aktuell sind alle Plätze frei — perfekt zum Planen.": "All spots are free right now — perfect for planning.",
+      "Aktuell sind {0} bei dir zu Gast.": "Currently {0} are staying with you.",
+      "Anfrage": "Request",
+      "Anfrage erfassen": "Record Request",
+      "Anfrage von {0} bestätigt": "Request from {0} confirmed",
+      "Anfrage öffnen": "Open Request",
+      "Anreise heute": "Arriving today",
+      "Aufenthalt angepasst": "Stay updated",
+      "Aufenthalt verschoben": "Stay rescheduled",
+      "Belegt": "Occupied",
+      "Bestätigen": "Confirm",
+      "Check-in: {0} — als laufend markiert": "Check-in: {0} — marked as ongoing",
+      "Check-out: Aufenthalt abgeschlossen": "Check-out: Stay completed",
+      "Frei": "Available",
+      "Heute & morgen": "Today & tomorrow",
+      "Heute ankommend": "Arriving today",
+      "Heute kommen {0} an.": "Today {0} arrive.",
+      "Heute kommen {0} — {1} reist ab.": "Today {0} arrive — {1} checks out.",
+      "Heute reist {0} ab.": "Today {0} checks out.",
+      "Hund": "Dog",
+      "Keine An- oder Abreisen heute — alles ruhig!": "No arrivals or departures today — all quiet!",
+      "Keine offenen Anfragen — alles bearbeitet!": "No open requests — all handled!",
+      "Neue Buchung": "New Booking",
+      "Offen": "Open",
+      "Offene Anfragen": "Open Requests",
+      "Offene Buchungsanfragen": "Open Booking Requests",
+      "{0} neue Buchungsanfragen": "{0} new booking requests"
+    }
+  },
+  "v": 1
+}
